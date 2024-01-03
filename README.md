@@ -1,6 +1,6 @@
-# Exact vs. Predicted Kinetic Energies in 1D Infinite Square Well
+# Uisng Harriman and Zumbe-Maschke orbitals to predict kinetic energy of electrons
 ## Introduction
-This repository showcases my final year project, focusing on the calculation of exact kinetic energies of electrons in a 1D infinite square well. The project explores the accuracy of predicted kinetic energies derived from the Harriman Orbitals proposed by John Harriman in 1981, employing orbital-free density functional theory.
+This repository showcases my final year project, focusing on the calculation of exact kinetic energies of electrons in a 1D infinite square well. The project explores the accuracy of predicted kinetic energies derived from the Harriman Orbitals proposed by John Harriman in 1981 and Zumbe and Mascke in 1983, employing orbital-free density functional theory.
 ## Key Features
 - Calculation of exact kinetic energies in a 1D infinite square well.
 - Utilization of Harriman Orbitals formula for predicting kinetic energies.
