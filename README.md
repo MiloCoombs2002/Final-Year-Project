@@ -16,6 +16,7 @@ This repository showcases my final year project, focusing on the calculation of 
 3. Compare and analyze the results using the provided tools.
 
 ## Code
+
 #import libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -49,12 +50,12 @@ def H(n):
     s[0], s[-1] = s[0]/2, s[-1]/2
     integral = sum(s)/res
     return ((8*np.pi**2)/(3*L**3))*integral
+    
 def VW(n):
     points = np.arange(0,1+1/res,1/res)
     s = VWi(n,points)
     s[0], s[-1] = s[0]/2, s[-1]/2
     integral = sum(s)/res
-    
     return (2*np.pi**2)*integral/(L**3)
 
 #Building Arrays and Plotting Results
@@ -85,3 +86,4 @@ ratio = np.array(pre)/np.array(exact)
 plt.scatter(electrons,ratio,s=5)
 plt.xlabel('Number of Electrons')
 plt.ylabel('Ratio')
+'''
