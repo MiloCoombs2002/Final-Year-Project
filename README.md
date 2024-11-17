@@ -16,4 +16,4 @@ This repository showcases my final year project, focusing on the calculation of 
 3. Compare and analyze the results using the provided plotting tools.
 
 ## Code
-See 1D_well.py for code using Harriman orbitals to rpedict energy in a 1D well
+See 1D_well.py for code using Harriman orbitals to predict energy in a 1D well
